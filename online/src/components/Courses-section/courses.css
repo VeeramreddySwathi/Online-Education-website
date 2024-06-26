@@ -1,0 +1,104 @@
+.course__top {
+  margin-bottom: 2rem;
+}
+
+.course__top__left h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.course__top__left p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.course__top .btn {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.course__top .btn:hover {
+  background-color: #2980b9;
+}
+
+.single__course__item {
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.single__course__item:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.course__img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.course__details {
+  padding: 16px;
+}
+
+.course__title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.lesson, .students, .rating, .enroll a {
+  font-size: 0.875rem;
+  color: #666;
+  text-decoration: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.lesson i, .students i, .rating i {
+  color: #f39c12;
+}
+
+.enroll a {
+  color: #3498db;
+  font-weight: 600;
+}
+
+.enroll a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .course__top__left,
+  .w-50.text-end {
+    width: 100%;
+    text-align: center;
+  }
+
+  .w-50.text-end {
+    margin-top: 1rem;
+  }
+}
